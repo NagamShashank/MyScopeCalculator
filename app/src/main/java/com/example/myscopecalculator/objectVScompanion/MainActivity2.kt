@@ -35,7 +35,6 @@ class MainActivity2 : AppCompatActivity() {
         }
 
 
-
         binding.myMulBtn.setOnClickListener {
             if(binding.txtNumber1.text.isNotEmpty() && binding.txtNumber2.text.isNotEmpty()){
                 var cal1 = calculation()
